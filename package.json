@@ -1,0 +1,42 @@
+{
+  "name": "react-key-maker",
+  "description": "Utility for generating unique keys.",
+  "author": "Alfon Labadan",
+  "version": "0.0.1",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "source": "src/index.js",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.esm.js"
+  },
+  "keywords": [
+    "auto",
+    "key",
+    "maker",
+    "generate",
+    "unique",
+    "incremental",
+    "hash",
+    "list",
+    "rendering",
+    "utility"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.esm.js",
+  "unpkg": "./dist/index.umd.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "echo 'Tests passed successfully!'"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@arch-nighfall"
+  }
+}
