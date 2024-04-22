@@ -24,6 +24,14 @@
     "rendering",
     "utility"
   ],
+  "homepage": "https://github.com/arch-nightfall/react-key-maker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arch-nightfall/react-key-maker"
+  },
+  "files": [
+    "dist"
+  ],
   "main": "./dist/index.cjs",
   "module": "./dist/index.esm.js",
   "unpkg": "./dist/index.umd.js",
@@ -35,8 +43,5 @@
   },
   "devDependencies": {
     "microbundle": "^0.15.1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@arch-nighfall"
   }
 }
